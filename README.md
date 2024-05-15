@@ -5,40 +5,41 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 <!-- REPLACE -->
-<!-- [TITLE] -->
-<!-- [GITHUB REPO] -->
+<!-- Learn 50 states of US -->
+<!-- TirsvadGUI/Python.Learn.50UsStates -->
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <a href="https://github.com/[GITHUB REPO]">
+    <a href="https://github.com/TirsvadGUI/Python.Learn.50UsStates">
         <img src="images/logo.png" alt="Logo" width="80" height="80">
     </a>
-    <h3 align="center">[TITLE]</h3>
+    <h3 align="center">Learn 50 states of US</h3>
     <p align="center">
-    <!-- PROJECT DESCRIPTION -->
+    Learn fast the 50 states in US.
     <br />
     <br />
     <!-- PROJECT SCREENSHOTS -->
-    <!--
-    <a href="https://github.com/[GITHUB REPO]/blob/main/images/screenshot01.png">
-        <img src="images/screenshot01.png" alt="screenshot" width="120" height="120">
+    <a href="https://github.com/TirsvadGUI/Python.Learn.50UsStates/blob/main/images/screenshot01.png">
+        <img src="images/screenshot01.png" alt="screenshot" height="120">
     </a>
-    -->
+    <a href="https://github.com/TirsvadGUI/Python.Learn.50UsStates/blob/main/images/screenshot01.png">
+        <img src="images/screenshot02.png" alt="screenshot" height="120">
+    </a>
     <br />
-    <a href="https://github.com/[GITHUB REPO]"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/TirsvadGUI/Python.Learn.50UsStates"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/[GITHUB REPO]/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/TirsvadGUI/Python.Learn.50UsStates/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/[GITHUB REPO]/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
-
-  </p>
+    <a href="https://github.com/TirsvadGUI/Python.Learn.50UsStates/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    </p>
 </div>
 
-# [TITLE]
+# Learn 50 states of US
 
-<!-- PROJECT DESCRIPTION -->
+Learn fast the 50 states in US. After ending learning it will pass you the states you didn't guessed.
+You can also see the missed states in data/missed_state.csv
 
 # Getting Started
 
@@ -54,15 +55,15 @@ You have python 3 installed.
 In a terminal do following
 
 ```console
-mkdir [TITLE]
-curl -L https://api.github.com/repos/[GITHUB REPO]/tarball | tar -xz --strip-components=3 -C [TITLE]
+mkdir Learn50UsStates
+curl -L https://api.github.com/repos/TirsvadGUI/Python.Learn.50UsStates/tarball | tar -xz --strip-components=3 -C Learn50UsStates
 ```
 
-For play the game go to the folder [TITLE] and run game.
-It saves high scores and player name.
+For learn play it by going to the folder Learn50UsStates and run ´python main.py´.
+At end of learning it output all the states you have to learn
 
 ```commandline
-cd [TITLE]
+cd Learn50UsStates
 python main.py
 ```
 
@@ -95,25 +96,25 @@ git push origin feature
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/[GITHUB REPO]?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/TirsvadGUI/Python.Learn.50UsStates?style=for-the-badge
 
-[contributors-url]: https://github.com/[GITHUB REPO]/graphs/contributors
+[contributors-url]: https://github.com/TirsvadGUI/Python.Learn.50UsStates/graphs/contributors
 
-[forks-shield]: https://img.shields.io/github/forks/[GITHUB REPO]?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/TirsvadGUI/Python.Learn.50UsStates?style=for-the-badge
 
-[forks-url]: https://github.com/[GITHUB REPO]/network/members
+[forks-url]: https://github.com/TirsvadGUI/Python.Learn.50UsStates/network/members
 
-[stars-shield]: https://img.shields.io/github/stars/[GITHUB REPO]?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/TirsvadGUI/Python.Learn.50UsStates?style=for-the-badge
 
-[stars-url]: https://github.com/[GITHUB REPO]/stargazers
+[stars-url]: https://github.com/TirsvadGUI/Python.Learn.50UsStates/stargazers
 
-[issues-shield]: https://img.shields.io/github/issues/[GITHUB REPO]?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/TirsvadGUI/Python.Learn.50UsStates?style=for-the-badge
 
-[issues-url]: https://github.com/[GITHUB REPO]/issues
+[issues-url]: https://github.com/TirsvadGUI/Python.Learn.50UsStates/issues
 
-[license-shield]: https://img.shields.io/github/license/[GITHUB REPO]?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/TirsvadGUI/Python.Learn.50UsStates?style=for-the-badge
 
-[license-url]: https://github.com/[GITHUB REPO]/blob/master/LICENSE.txt
+[license-url]: https://github.com/TirsvadGUI/Python.Learn.50UsStates/blob/master/LICENSE.txt
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 
