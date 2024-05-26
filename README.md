@@ -4,14 +4,10 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-<!-- REPLACE -->
-<!-- Learn 50 states of US -->
-<!-- TirsvadGUI/Python.Learn.50UsStates -->
 
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <a href="https://github.com/TirsvadGUI/Python.Learn.50UsStates">
+    <a href="https://github.com/TirsvadGUI/Python.Game.50UsStates">
         <img src="images/logo.png" alt="Logo" width="80" height="80">
     </a>
     <h3 align="center">Learn 50 states of US</h3>
@@ -20,19 +16,19 @@
     <br />
     <br />
     <!-- PROJECT SCREENSHOTS -->
-    <a href="https://github.com/TirsvadGUI/Python.Learn.50UsStates/blob/main/images/screenshot01.png">
+    <a href="https://github.com/TirsvadGUI/Python.Game.50UsStates/blob/main/images/screenshot01.png">
         <img src="images/screenshot01.png" alt="screenshot" height="120">
     </a>
-    <a href="https://github.com/TirsvadGUI/Python.Learn.50UsStates/blob/main/images/screenshot01.png">
+    <a href="https://github.com/TirsvadGUI/Python.Game.50UsStates/blob/main/images/screenshot01.png">
         <img src="images/screenshot02.png" alt="screenshot" height="120">
     </a>
     <br />
-    <a href="https://github.com/TirsvadGUI/Python.Learn.50UsStates"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/TirsvadGUI/Python.Game.50UsStates"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/TirsvadGUI/Python.Learn.50UsStates/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/TirsvadGUI/Python.Game.50UsStates/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/TirsvadGUI/Python.Learn.50UsStates/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/TirsvadGUI/Python.Game.50UsStates/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
     </p>
 </div>
 
@@ -56,7 +52,7 @@ In a terminal do following
 
 ```console
 mkdir Learn50UsStates
-curl -L https://api.github.com/repos/TirsvadGUI/Python.Learn.50UsStates/tarball | tar -xz --strip-components=3 -C Learn50UsStates
+curl -L https://api.github.com/repos/TirsvadGUI/Python.Game.50UsStates/tarball | tar -xz --strip-components=3 -C Learn50UsStates
 ```
 
 For learn play it by going to the folder Learn50UsStates and run ´python main.py´.
@@ -96,25 +92,25 @@ git push origin feature
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/TirsvadGUI/Python.Learn.50UsStates?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/TirsvadGUI/Python.Game.50UsStates?style=for-the-badge
 
-[contributors-url]: https://github.com/TirsvadGUI/Python.Learn.50UsStates/graphs/contributors
+[contributors-url]: https://github.com/TirsvadGUI/Python.Game.50UsStates/graphs/contributors
 
-[forks-shield]: https://img.shields.io/github/forks/TirsvadGUI/Python.Learn.50UsStates?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/TirsvadGUI/Python.Game.50UsStates?style=for-the-badge
 
-[forks-url]: https://github.com/TirsvadGUI/Python.Learn.50UsStates/network/members
+[forks-url]: https://github.com/TirsvadGUI/Python.Game.50UsStates/network/members
 
-[stars-shield]: https://img.shields.io/github/stars/TirsvadGUI/Python.Learn.50UsStates?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/TirsvadGUI/Python.Game.50UsStates?style=for-the-badge
 
-[stars-url]: https://github.com/TirsvadGUI/Python.Learn.50UsStates/stargazers
+[stars-url]: https://github.com/TirsvadGUI/Python.Game.50UsStates/stargazers
 
-[issues-shield]: https://img.shields.io/github/issues/TirsvadGUI/Python.Learn.50UsStates?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/TirsvadGUI/Python.Game.50UsStates?style=for-the-badge
 
-[issues-url]: https://github.com/TirsvadGUI/Python.Learn.50UsStates/issues
+[issues-url]: https://github.com/TirsvadGUI/Python.Game.50UsStates/issues
 
-[license-shield]: https://img.shields.io/github/license/TirsvadGUI/Python.Learn.50UsStates?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/TirsvadGUI/Python.Game.50UsStates?style=for-the-badge
 
-[license-url]: https://github.com/TirsvadGUI/Python.Learn.50UsStates/blob/master/LICENSE.txt
+[license-url]: https://github.com/TirsvadGUI/Python.Game.50UsStates/blob/master/LICENSE.txt
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 
