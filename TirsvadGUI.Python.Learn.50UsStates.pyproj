@@ -57,6 +57,7 @@
     <Compile Include="src\Learn50UsStates\us_states_game.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="README.md" />
     <Content Include="src\Learn50UsStates\data\.gitignore" />
     <Content Include="src\Learn50UsStates\data\50_states.csv" />
     <Content Include="src\Learn50UsStates\data\missed_state.csv" />

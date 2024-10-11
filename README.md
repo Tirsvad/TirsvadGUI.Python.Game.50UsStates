@@ -63,6 +63,20 @@ cd Learn50UsStates
 python main.py
 ```
 
+### Windows installation
+
+Download the zip file from the repository and extract it to a folder. Open a command prompt and navigate to the folder
+where you extracted the files. Run the following command to start the game.
+
+```powershell
+Invoke-WebRequest -Uri "https://github.com/TirsvadGUI/Python.Game.50UsStates/releases/download/v0.2.0-alpha.1/LearnStatesInUS.zip" -OutFile "LearnStatesInUS.zip"
+Expand-Archive -Path "LearnStatesInUS.zip" -DestinationPath "LearnStatesInUS"
+cd LearnStatesInUS
+.\LearnStatesInUS.exe
+```
+
+
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any
