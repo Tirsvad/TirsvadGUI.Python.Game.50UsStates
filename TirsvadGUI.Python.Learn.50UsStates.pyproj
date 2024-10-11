@@ -1,0 +1,74 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>e6a1fb7a-49b7-42d7-a9e4-4d120ad33722</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>src\Learn50UsStates\main.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>D:\OneDrive\projects\Tirsvad\Python\Learn\TirsvadGUI.Python.Game.50UsStates\src\Learn50UsStates</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>TirsvadGUI.Python.Learn.50UsStates</Name>
+    <RootNamespace>TirsvadGUI.Python.Learn.50UsStates</RootNamespace>
+    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <TestFramework>pytest</TestFramework>
+    <UnitTestPattern>test*.py</UnitTestPattern>
+    <UnitTestRootDirectory>.</UnitTestRootDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Interpreter Include="env\">
+      <Id>env</Id>
+      <Version>0.0</Version>
+      <Description>env (Python 3.12)</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+    <Interpreter Include="env_py_to_exe\">
+      <Id>env_py_to_exe</Id>
+      <Version>0.0</Version>
+      <Description>env_py_to_exe (Python 3.12)</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\" />
+    <Folder Include="src\Learn50UsStates\" />
+    <Folder Include="src\Learn50UsStates\data\" />
+    <Folder Include="src\Learn50UsStates\images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="src\Learn50UsStates\constants.py" />
+    <Compile Include="src\Learn50UsStates\main.py" />
+    <Compile Include="src\Learn50UsStates\us_states_game.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="src\Learn50UsStates\data\.gitignore" />
+    <Content Include="src\Learn50UsStates\data\50_states.csv" />
+    <Content Include="src\Learn50UsStates\data\missed_state.csv" />
+    <Content Include="src\Learn50UsStates\images\blank_states_img.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

@@ -24,8 +24,10 @@ class UsStatesGame:
 
     def update(self, answer="") -> bool:
         if answer == "":
-            answer = self.screen.textinput(f"{self.correct_answers}/50 states correct",
-                                           "What's another state name?")
+            answer = self.screen.textinput(
+                f"{self.correct_answers}/50 states correct",
+                "What's another state name?",
+            )
         if answer is None:
             new_data = pd.DataFrame(self.all_state_list)
             new_data.to_csv(STATES_MISSED_FILE)
@@ -37,10 +39,7 @@ class UsStatesGame:
 
             self.all_state_list.remove(answer)
             state_data = self.data_us_states[self.data_us_states.state == answer]
-            self.text.goto(
-                int(state_data.x.item()),
-                int(state_data.y.item())
-            )
+            self.text.goto(int(state_data.x.item()), int(state_data.y.item()))
             self.text.write(answer, move=True, align="left")
             self.correct_answers += 1
             if self.correct_answers == 50:
